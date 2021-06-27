@@ -31,10 +31,10 @@
 }
 
 .header__title {
+  text-weight: bold;
   width: 730px;
   margin: auto 64px;
   font-size: 102px;
-  text-weight: bold;
   line-height: 96px;
   z-index: 2;
 }
@@ -46,7 +46,6 @@
   left: 64px;
   font-size: 18px;
   line-height: 25px;
-  text-weight: normal;
   z-index: 2;
 }
 
