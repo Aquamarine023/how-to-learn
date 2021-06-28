@@ -61,7 +61,7 @@
   height: 608px;
   bottom: 0;
   right: 0;
-  z-index: 0;
+  z-index: -1;
 
 }
 
@@ -72,7 +72,7 @@
   position: absolute;
   top: 64px;
   right: 0;
-  z-index: -1;
+  z-index: -2;
 }
 
 .description {
@@ -154,7 +154,7 @@
   padding-left: 0;
 }
 
-.table__сell {
+.table__cell {
   width: 250px;
   margin-right: 0;
   margin-top: 60px;
@@ -249,6 +249,7 @@
   top: 0;
   width: 877px;
   height: 877px;
+  background-size: 877px 877px;
   background-image: url(../images/kaufman-triangle.svg);
   z-index: -1;
 }
@@ -311,7 +312,6 @@
 }
 
 .footer__column-heading {
-  text-align: center;
   margin: 0 0 20px;
 }
 
