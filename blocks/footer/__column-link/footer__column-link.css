@@ -9,5 +9,5 @@
 }
 
 .footer__column-link:hover {
-  color: blue;
+  opacity: 70%;
 }
